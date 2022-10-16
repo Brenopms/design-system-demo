@@ -19,5 +19,7 @@ module.exports = {
     if (configType === 'PRODUCTION') {
       config.base = '/design-system-demo/'
     }
+
+    return config
   },
 }
